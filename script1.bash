@@ -1,8 +1,11 @@
-export TEST="THIS IS A TEST"
+TEST1="THIS IS TEST 1"
 
-echo "TEST2=${TEST}" >> "$GITHUB_ENV"
+export TEST2="THIS IS TEST 2"
 
-echo "In script 1, test = $TEST"
+echo "TEST3=TEST3" >> "$GITHUB_ENV"
+
+echo "In script 1, test1 = $TEST1"
 echo "In script 1, test2 = $TEST2"
+echo "In script 1, test2 = $TEST3"
 
 . ./script2.bash
