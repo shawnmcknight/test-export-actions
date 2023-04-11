@@ -1,0 +1,10 @@
+name: Testing variable access
+
+on: push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: ./script1.bash
