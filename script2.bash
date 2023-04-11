@@ -1,3 +1,3 @@
-echo "test = $TEST"
+echo "In script 2, test = $TEST"
 
-echo "test2 = $TEST2"
+echo "In script 2, test2 = $TEST2"
